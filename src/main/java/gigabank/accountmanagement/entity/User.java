@@ -10,10 +10,10 @@ import java.util.List;
  */
 @Data
 public class User {
-    private String id;
+    private final String id;
     private String firstName;
     private String middleName;
     private String lastName;
-    private LocalDate birthDate;
-    private List<BankAccount> bankAccounts;
+    private final LocalDate birthDate;
+    private final List<BankAccount> bankAccounts;
 }
